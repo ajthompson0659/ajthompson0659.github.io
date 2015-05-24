@@ -5,9 +5,9 @@ date:   2015-05-23 13:47:01
 categories: How to
 ---
 
-*Please note, theese instructions are based on Ubuntu 14.04 as the host OS.
+*These instructions are based on Ubuntu 14.04 as the host OS.
 
-Sometimes it can be awhile between posts and if I get busy learning new things, the old info may get pushed out of recent memory.  This post is a quick-start guide so I don't forget how to make and push simple posts in the future.
+Sometimes it can be awhile between posts and if I get busy learning new things, the old things tend to get pushed out of recent memory.  This post is a quick-start guide so I don't forget how to make and push simple posts in the future.
 
 ### Installation & Setup
 
