@@ -7,6 +7,8 @@ categories: How to
 
 *Please note, theese instructions are based on Ubuntu 14.04 as the host OS.
 
+Sometimes it can be awhile between posts and if I get busy learning new things, the old info may get pushed out of recent memory.  This post is a quick-start guide so I don't forget how to make and push simple posts in the future.
+
 ### Installation & Setup
 
 Prerequisites: Install the following prerequisite programs (Ruby, RubyGems, Jekyll)
@@ -42,6 +44,13 @@ This will allow you to view the pages locally (http://127.0.0.1:4000) as they wi
 	jekyll serve --detach
 
 Using a web browser, navigate to the local repository URL http://127.0.0.1:4000 to view the site.
+
+Set Git Account Default Identity:
+
+	git config --global user.email "you@example.com"
+	git config --global user.name "Your Name"
+	git config --global push.default matching
+
 
 ### Creating Posts
 
@@ -84,4 +93,17 @@ Pictures: Embed a picture by placing an exclamation point (!) before the hyper-l
 
 	![My Network Lab Rack](/images/labrack-rear-view.jpg)
 
+![My Network Lab Rack](/images/labrack-rear-view.jpg)
+
+### Pushing Posts from the CLI
+
+If you created posts locally on your computer, you can use git commands to push the posts to the live repository.  See below example.
+
+	git add 2015-05-23-how-to-create-and-post-gitpages.markdown
+	git commit -a -m "Commit Description"
+	git push origin 
+	
+Go to your repository's live site URL and view the changes (http://username.github.io).  To see the changes locally, kill and restart the Jekyll serve process.
+
+For further reading, look at [GitHub Pages Basics](https://help.github.com/categories/github-pages-basics/).
 
